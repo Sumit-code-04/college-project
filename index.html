@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Provider</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="123.png">
+    <link rel="stylesheet" href="css/workoutpage.css">
+    <link rel="stylesheet" href="css/style-login.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    
+    
+    <style>
+        
+    </style>
+</head>
+<body>
+
+   
+   <header class="header-nav">
+    
+    <div id="loginSection">
+        <a class="login" id="openLoginPopup" >LOGIN</a>
+        <img id="profilePic"  alt="Profile Picture" style="display: none;" />
+        
+        <!-- Dropdown Menu for Profile Options -->
+        <div id="profileMenu" class="dropdown" style="display: none;">
+            <ul>
+                <li><a href="dashboard.html">View Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="#" id="logoutButton">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <img class="logo" src="galary/123.png" alt="Nutrition Provider Logo" />
+    <h1>NUTRITION PROVIDER</h1>
+    
+    
+     
+    <div class="navbar">
+        <a href="index.html" style="background-color: #a4f3a8 ;">Home</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="workoutpage.html">Workout Plan</a>
+        <a href="bmi.html">BMI</a>
+        <a href="#blog">Blog</a>
+        <div class="dropdown">
+            <a href="javascript:void(0)">More</a>
+            <div class="dropdown-content">
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#clients">Clients</a>
+            </div>
+        </div>
+    </div>
+     
+ </header>
+
+
+ <section class="animation">
+  <!----this is for workoutpage-->
+  <div>
+  <h1 class="workout"> Workout Plan</h1>
+  <section class="workout-section">
+    <div class="1">
+    <div class="workout-plan" id="weight-loss">
+        <h2>Weight Loss Plan</h2>
+        <img src="galary/weight-loss.png" alt="Weight Loss Plan">
+        <button onclick="showPlanDetails('weight-loss')">View Details</button>
+        <div class="details" id="details-weight-loss"></div>
+    </div>
+</div>
+  
+ <div class="2">
+    <div class="workout-plan" id="muscle-gain">
+        <h2>Muscle Gain Plan</h2>
+        <img src="galary/muscle.png" alt="Muscle Gain Plan" height="200px">
+        <button onclick="showPlanDetails('muscle-gain')">View Details</button>
+        <div class="details" id="details-muscle-gain"></div>
+    </div>
+ </div>  
+
+  <div class="3"> 
+    <div class="workout-plan" id="full-body">
+        <h2>Full Body Toning Plan</h2>
+        <img src="galary/full-body.png"    alt="Full body Plan" height="200px">
+        <button onclick="showPlanDetails('full-body')">View Details</button>
+        <div class="details" id="details-full-body"></div>
+    </div>
+  </div> 
+  
+</section>
+<center><a href="workoutpage.html" class="more">Get more...</a></center>            
+  </div>
+ </section>
+
+
+ <section class="animation">
+
+
+    <!-- Featured Section -->
+    <div id="featured" class="featured-section">
+        <h2>Featured Plans</h2>
+        <div class="featured-item">
+            <h3>Weight Loss Plan</h3>
+            <p>Lose weight with our tailored meal and workout</p>
+            <a href="http://localhost:3000/weight-loss.html">Learn More</a>
+        </div>
+        <div class="featured-item">
+            <h3>Muscle Gain Plan</h3>
+            <p>Build muscle mass with our expert plans.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="featured-item">
+            <h3>Custom Nutrition Plan</h3>
+            <p>Get a personalized diet based on your goals.</p>
+            <a href="http://localhost:3000/nutrition.html">Learn More</a>
+        </div>
+    </div>
+
+ </section>
+
+
+ <section class="animation">
+
+    <!-- Testimonial Section -->
+    <div id="testimonials" class="testimonial-section">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial">
+            <p>"This is the best platform I have ever used for nutrition and workout plans!"</p>
+            <h4>abc</h4>
+        </div>
+        <div class="testimonial">
+            <p>"I achieved my fitness goals thanks to the personalized meal plans!"</p>
+            <h4>xyz</h4>
+        </div>
+        <div class="testimonial">
+            <p>"The workouts are easy to follow, and I see real progress!"</p>
+            <h4>pqr</h4>
+        </div>
+    </div>
+
+
+ </section>
+ 
+
+
+
+ <section class="animation">
+    <!-- Blog Section -->
+    <div id="blog" class="blog-section">
+        <h2>Latest from Our Blog</h2>
+        <div class="blog-item">
+            <h3>5 Tips for a Balanced Diet</h3>
+            <p>Discover the secrets to a balanced and healthy diet...</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="blog-item">
+            <h3>How to Stay Motivated to Exercise</h3>
+            <p>Learn how to keep up the motivation for your workouts...</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="blog-item">
+            <h3>Top 10 Superfoods for Weight Loss</h3>
+            <p>Incorporate these superfoods into your diet to burn fat...</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+   
+</section>
+
+<section class="animation">
+    <!-- FAQ Section -->
+    <div id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h4>What is a personalized nutrition plan?</h4>
+            <p>A personalized nutrition plan is tailored to meet your unique dietary needs and fitness goals.</p>
+        </div>
+        <div class="faq-item">
+            <h4>How can I follow my diet?</h4>
+            <p>We provide tools and resources to help you to follow your diet and workout.</p>
+        </div>
+        <div class="faq-item">
+            <h4>Can I change my plan later?</h4>
+            <p>Yes! You can modify your nutrition and workout plans at any time.</p>
+        </div>
+    </div>
+</section>
+
+    <section class="animation">
+    <!-- website Subscription Section -->
+    <div class="newsletter-section">
+        <h2>Subscribe to Our Channel</h2>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button onclick="subscribe()">Subscribe</button>
+        <p id="subscribe-message" style="margin-top: 10px;"></p>
+    </div>
+    </section>
+
+
+    <section class="animation"> 
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <input type="text" id="name" placeholder="Your Name"  hre="http://localhost:4000" required>
+            <input type="email" id="emailContact" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button  onclick="sendContact()">Send Message</button>
+            <p id="contact-message" style="margin-top: 10px;"></p>
+        </div>
+    </div>
+    </section>
+  
+
+</section>
+    <!-- Client Logos Section -->
+    <div id="clients" class="client-logos">
+        <h2>Our Clients</h2>
+        <img src="galary/client.png" alt="Client 1" class="logo" width="100">
+        <img src="galary/client.png" alt="Client 2" class="logo" width="100">
+        <img src="galary/client.png" alt="Client 3" width="100" class="logo">
+        <img src="galary/client.png" alt="Client 4" width="100" class="logo">
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Nutrition Provider. All Rights Reserved.</p>
+    </div>
+
+    
+
+    <!-- Login Popup -->
+<div id="loginPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="closeLoginPopup">&times;</span>
+        <h2>Login</h2>
+        <br><br>
+        <input type="text" id="loginUsername" placeholder="Username" required >
+        <br><br>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <br><br>
+        <button id="loginButton">Login</button>
+        <br><br>
+        <p id="loginMessage"></p>
+        <p> Don't have an account? <span id="openRegisterPopup" class="register"> Register here</span></p>
+    </div>
+</div>
+
+
+
+
+<!-- Registration Popup -->
+ <div class="register1">
+<div id="registerPopup" class="popup" method="post" enctype="multipart/form-data">
+    <div class="popup-content">
+        <span class="close" id="closeRegisterPopup">&times;</span>
+        <h2>Register</h2>
+        <br>
+        <input type="text" id="registerEmail" placeholder="Email" required>
+        <br><br>
+        <input type="text" id="registerUsername" placeholder="Username" required>
+        <br><br>
+        <input type="number" id="registerage" placeholder="age" required>
+        <br><br>
+        <label for="edit-gender">Gender:</label>
+        <select id="registergender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <label>only (jpeg,png,jpg) are allowed</label>
+        <input type="file" id="registerpic" accept="image/*">
+        <br><br>
+        <input type="number" id="registerweight" placeholder="weight(kg)" required>
+        <br><br>
+        <input type="number" id="registerbmi" placeholder="BMI" required>
+        <br><br>
+        <textarea id="registerbio" placeholder="write your Bio"></textarea>
+        <br><br>
+        <input type="password" id="registerPassword" placeholder="Password" required>
+        <br><br>
+        <input type="password" id="registerConfirmPassword" placeholder="Confirm Password" required>
+        <br>
+        
+
+        <button id="registerButton">Register</button>
+        <p id="registerMessage"></p>
+       <p>Already have an account? <span id="openLoginPopupAgain" class="logi">Login here</span></p>
+    </div>
+</div>
+</div>
+
+    
+    <script src="js/login.js"></script>
+    <script src="js/profile.js"> </script>
+    <script src="js/homepage.js"></script>
+    <script src="js/animation.js"></script>
+    
+    
+
+</body>
+</html>

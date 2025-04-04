@@ -1,0 +1,98 @@
+.register1 .popup {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.register1 .popup-content {
+    background-color: #fff;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.register1 .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.register1 .close:hover,
+.register1 .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register1 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.register1 input[type="text"],
+.register1 input[type="number"],
+.register1 input[type="password"],
+.register1 select,
+.register1 textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register1 textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register1 #registerButton {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.register1 #registerButton:hover {
+    background-color: #45a049;
+}
+
+.register1 #registerMessage {
+    color: red;
+    font-size: 14px;
+}
+
+.register1 .logi {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.register1 .logi:hover {
+    color: #0056b3;
+}

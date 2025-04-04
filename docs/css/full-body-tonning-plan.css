@@ -13,7 +13,7 @@ h1, h2 {
 
 .hero {
     position: relative;
-    background: url('/galary/full-body-tonning2.png') no-repeat center center/cover;
+    background: url('/docs/galary/full-body-tonning2.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;

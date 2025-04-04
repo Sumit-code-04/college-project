@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Provider</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="123.png">
+    <link rel="stylesheet" href="css/workoutpage.css">
+    <link rel="stylesheet" href="css/style-login.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/bmi.css">
+    <link rel="stylesheet" href="css/animation.css">
+    
+    
+    <style>
+        
+    </style>
+</head>
+<body>
+
+   
+   <header class="header-nav">
+    
+    <div id="loginSection">
+        <a class="login" id="openLoginPopup" >LOGIN</a>
+        <img id="profilePic"  alt="Profile Picture" style="display: none;" />
+        
+        <!-- Dropdown Menu for Profile Options -->
+        <div id="profileMenu" class="dropdown" style="display: none;">
+            <ul>
+                <li><a href="dashboard.html">View Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="#" id="logoutButton">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <img class="logo" src="galary/123.png" alt="Nutrition Provider Logo" />
+    <h1>NUTRITION PROVIDER</h1>
+    
+    
+     
+    <div class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="testimonial.html">Testimonials</a>
+        <a href="workoutpage.html">Workout Plan</a>
+        <a href="bmi.html" style="background-color: #a4f3a8 ;"">BMI</a>
+        <a href="#blog">Blog</a>
+        <div class="dropdown">
+            <a href="javascript:void(0)">More</a>
+            <div class="dropdown-content">
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#clients">Clients</a>
+            </div>
+        </div>
+    </div>
+     
+
+ </header>
+
+ <section class="animation"> 
+
+ <div class="containerBmi">
+    <h1>BMI Calculator</h1>
+    <p class="intro">Your body is unique and amazing. Find out your BMI today, and take a step towards better health!</p>
+    <form id="bmiForm">
+        <div class="form-group">
+            <label for="age">Age (years):</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <div class="form-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+        </div>
+        <div class="form-group">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required>
+        </div>
+        <button type="button" class="btn" onclick="calculateBMI()">Calculate BMI</button>
+    </form>
+    <div id="resultContainer">
+        <h3 id="bmiResult"></h3>
+        <div id="bmiCategory"></div>
+        <p id="bmiMessage"></p>
+    </div>
+</div>
+
+ </section>
+
+ <section class="animation"> 
+ <div class="bmi-info-container">
+    <h1>🌟 Understand Your BMI</h1>
+    
+
+    <section class="animation"> 
+    <section class="bmi-section">
+      <h2> What is BMI (Body Mass Index)?</h2>
+    <p>
+      Body Mass Index (BMI) is a simple calculation using your height and weight.  
+      It helps determine whether your weight is healthy for your height.  
+      The result gives you an idea if you're underweight, normal, overweight, or obese.  
+      BMI is not a perfect tool but works well for general health screening.  
+      It's widely used by doctors, fitness trainers, and health professionals.  
+      Understanding your BMI can be a great first step toward better health.
+    </p>
+    </section>
+    </section>
+    <hr>
+    <br><br>
+    <section class="animation"> 
+    <section class="bmi-section">
+      <h2>BMI Categories</h2>
+      <p>
+        BMI falls into different ranges that tell you about your body weight status.  
+        These categories help you understand if you're at a healthy weight or need changes.  
+      </p><br>
+      <ul>
+        <li><strong>Underweight:</strong> BMI less than 18.5</li>
+        <li><strong>Normal (Healthy):</strong> BMI between 18.5 and 24.9</li>
+        <li><strong>Overweight:</strong> BMI between 25 and 29.9</li>
+        <li><strong>Obese:</strong> BMI 30 or more</li>
+      </ul><br>
+      <p>
+        Each category can affect your health differently, so it's good to know where you stand.
+      </p>
+    </section>
+    </section>
+    <hr>
+    <br><br>
+    <section class="animation"> 
+    <section class="bmi-section">
+      <h2> BMI for Adults</h2>
+      <p>
+        BMI is most accurate for adults aged 18 to 65 years.
+        It does not consider muscle mass, bone structure, or fat distribution.
+        For example, athletes may have a high BMI due to muscle, not fat.
+        It also may not be very accurate for elderly people or those with specific health conditions.
+        For children and teenagers, doctors use a different growth chart, not BMI alone.
+        Always talk to a healthcare provider for a full understanding of your health.
+      </p>
+    </section>
+    </section>
+  <hr>
+  <br><br>  
+  <section class="animation"> 
+    <section class="bmi-section">
+      <h2> Benefits of Knowing Your BMI</h2>
+      <p>
+        Helps you know if your weight is in a healthy range or not.
+
+        Gives you a starting point for making better health decisions.
+        
+        Motivates you to exercise, eat better, or maintain your lifestyle.
+        
+        Helps prevent diseases related to being overweight or underweight.
+        
+        Makes you more aware of your body and personal wellness.
+        
+        Easy to calculate and understand — a great tool for daily health tracking!
+      </p>
+    </section>
+  </section>
+     
+  <section class="animation"> 
+    <p class="closing-message"> <strong>💡 Remember:</strong> BMI is just a starting point. Your health is about more than just numbers. Take care of your body and mind!</p>
+  </div>
+  </section>
+
+ <hr><br><br>
+
+ <section class="animation"> 
+
+ <!-- website Subscription Section -->
+ <div class="newsletter-section">
+    <h2>Subscribe to Our Channel</h2>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <button onclick="subscribe()">Subscribe</button>
+    <p id="subscribe-message" style="margin-top: 10px;"></p>
+</div>
+ </section>
+
+
+  
+
+    <!-- Client Logo Section -->
+    <div id="clients" class="client-logos">
+        <h2>Our Clients</h2>
+        <img src="galary/client.png" alt="Client 1" class="logo" width="100">
+        <img src="galary/client.png" alt="Client 2" class="logo" width="100">
+        <img src="galary/client.png" alt="Client 3" width="100" class="logo">
+        <img src="galary/client.png" alt="Client 4" width="100" class="logo">
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Nutrition Provider. All Rights Reserved.</p>
+    </div>
+
+    
+
+    <!-- Login Popup -->
+<div id="loginPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="closeLoginPopup">&times;</span>
+        <h2>Login</h2>
+        <br><br>
+        <input type="text" id="loginUsername" placeholder="Username" required >
+        <br><br>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <br><br>
+        <button id="loginButton">Login</button>
+        <br><br>
+        <p id="loginMessage"></p>
+        <p> Don't have an account? <span id="openRegisterPopup" class="register"> Register here</span></p>
+    </div>
+</div>
+
+
+
+
+<!-- Registration Popup -->
+ <div class="register1">
+<div id="registerPopup" class="popup" method="post" enctype="multipart/form-data">
+    <div class="popup-content">
+        <span class="close" id="closeRegisterPopup">&times;</span>
+        <h2>Register</h2>
+        <br>
+        <input type="text" id="registerEmail" placeholder="Email" required>
+        <br><br>
+        <input type="text" id="registerUsername" placeholder="Username" required>
+        <br><br>
+        <input type="number" id="registerage" placeholder="age" required>
+        <br><br>
+        <label for="edit-gender">Gender:</label>
+        <select id="registergender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <label>only (jpeg,png,jpg) are allowed</label>
+        <input type="file" id="registerpic" accept="image/*">
+        <br><br>
+        <input type="number" id="registerweight" placeholder="weight(kg)" required>
+        <br><br>
+        <input type="number" id="registerbmi" placeholder="BMI" required>
+        <br><br>
+        <textarea id="registerbio" placeholder="write your Bio"></textarea>
+        <br><br>
+        <input type="password" id="registerPassword" placeholder="Password" required>
+        <br><br>
+        <input type="password" id="registerConfirmPassword" placeholder="Confirm Password" required>
+        <br>
+        
+
+        <button id="registerButton">Register</button>
+        <p id="registerMessage"></p>
+       <p>Already have an account? <span id="openLoginPopupAgain" class="logi">Login here</span></p>
+    </div>
+</div>
+</div>
+
+    
+    <script src="js/login.js"></script>
+    <script src="js/bmi.js"></script>
+    <script src="js/profile.js"> </script>
+    <script src="js/homepage.js"></script>
+    <script src="js/animation.js"></script>
+    
+    
+
+</body>
+</html>

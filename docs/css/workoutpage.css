@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.workout-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 90%;
+}
+
+.workout-plan {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.workout-plan img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.workout-plan video {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.details {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.8;
+    max-width: 1000PX;
+}
+.workout{
+    text-align: center;
+    padding-top: 50px;
+}
+.more{
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 30px;
+    
+}

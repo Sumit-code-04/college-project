@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.plan-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.plan-options button {
+    margin: 0 15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #3bb43f;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.plan-options button:hover {
+    background-color: #c9d3af;
+}
+
+.plan h2{
+    margin-top: 30px;
+}
+
+.calci {
+    background-color: #e5f5f8;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    max-width: 500px;
+    padding: 25px;
+    margin: 10px 0;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    
+}
+
+.calculator h2 {
+    background-color: gold;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 8px rgba(48, 29, 29, 0.1);
+}
+
+.calculator input, select {
+    margin: 10px;
+    padding: 5px;
+}
+
+#calorie-result {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: cadetblue;
+}
+#plan-details{
+    background-color:rgba(255, 255, 0, 0.078);
+    margin-left: 300px;
+    text-align: left;
+    font-size: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.8;
+    
+}
+.head{
+    text-align: center;
+    padding-top: 25px;
+}

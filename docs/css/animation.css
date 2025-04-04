@@ -1,0 +1,15 @@
+.animation {
+  opacity: 0;
+  transform: translateY(250px); 
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.show-down {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.show-up {
+  opacity: 1;
+  transform: translateY(0);
+}

@@ -13,7 +13,7 @@ h1, h2 {
 
 .hero {
     position: relative;
-    background: url('/docs/galary/muscle gain.png') no-repeat center center/cover;
+    background: url('/galary/muscle gain.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;

@@ -13,7 +13,7 @@ html, body {
 }
 
 .header-nav {
-    background-image: url(/docs/galary/background.png); 
+    background-image: url(/galary/background.png); 
     background-size: cover;
     background-position: center;
     padding: 40px 0px;
@@ -134,11 +134,131 @@ html, body {
     background-color: #ddd; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1036px) and (min-width: 915px) {
     
     
     .header-nav{
         height: 130px;
+    }
+    
+    .header-nav h1 {
+        font-size: 20px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        cursor: pointer; 
+    }
+
+    .header-nav .navbar{
+        margin-top: 60px;
+        
+    }
+
+    .header-nav .login{
+        padding: 4px 10px;
+        margin-top: -20px;
+        font-size: 16px;
+        border: 1px solid black;
+    }
+
+    .header-nav .logo{
+        height: 50px;
+         width: 50px;
+         margin-top: -12px;
+    }
+
+    .navbar a, .dropbtn {
+        padding: 8px; 
+        font-size: 12px; 
+    }
+
+    .dropdown-content {
+        position: relative; 
+    }
+    .dropbtn {
+        cursor: pointer;
+    }
+
+    .dropdown-content{
+        min-width: 70px; 
+        display: none;
+        position: absolute;
+        font-size: 9px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 910px) and (min-width: 350px) {
+    
+    
+    .header-nav{
+        height: 126px;
+    }
+    
+    .header-nav h1 {
+        font-size: 20px;
+        margin-right: 85px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        cursor: pointer; 
+    }
+
+    .header-nav .navbar{
+        margin-top: 28px;
+        
+    }
+
+    .header-nav .login{
+        padding: 4px 10px;
+        margin-top: -20px;
+        font-size: 16px;
+        border: 1px solid black;
+    }
+
+    .header-nav .logo{
+        height: 50px;
+         width: 50px;
+         margin-top: -12px;
+    }
+
+    .navbar a, .dropbtn {
+        padding: 8px; 
+        font-size: 12px; 
+    }
+
+    .dropdown-content {
+        position: relative; 
+    }
+    .dropbtn {
+        cursor: pointer;
+    }
+
+    .dropdown-content{
+        min-width: 70px; 
+        display: none;
+        position: absolute;
+        font-size: 9px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media screen and (mix-width: 412px)and (man-width: 360px) {
+    
+    
+    .header-nav{
+        height: 110px;
     }
     
     .header-nav h1 {
@@ -188,10 +308,6 @@ html, body {
         position: absolute;
         font-size: 9px;
     }
-
-    
-    
-    
 
     .menu-toggle {
         display: block;
